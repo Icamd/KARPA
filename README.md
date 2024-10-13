@@ -1,9 +1,7 @@
 # Knowledge graph Assisted Reasoning Path Aggregation (KARPA)
 Implementation of "KARPA: A Training-free Method of Adapting Knowledge Graph as References for Large Language Model's Reasoning Path Aggregation".
 
-This repository contains the implementation of Knowledge graph Assisted Reasoning Path Aggregation (KARPA), a training-free framework designed for Knowledge Graph Question Answering (KGQA). Our method leverages the global planning capabilities of large language models (LLMs) to retrieve reasoning paths over knowledge graphs (KGs). 
-
-KARPA addresses the limitations of stepwise LLM-based KGQA methods by enabling LLMs to generate initial, globally planned relation paths that represent reasoning chains from a topic entity to potential answer entities. Our method effectively reduces the number of interactions between the LLM and the KG, improving both efficiency and performance in KGQA tasks. Compared to existing methods, SoG significantly enhances the accuracy of reasoning over KGs while minimizing computational costs.
+This repository contains the implementation of Knowledge graph Assisted Reasoning Path Aggregation (KARPA), a training-free framework designed for Knowledge Graph Question Answering (KGQA). Our method leverages the global planning capabilities of large language models (LLMs) to retrieve reasoning paths over knowledge graphs (KGs). KARPA addresses the limitations of stepwise LLM-based KGQA methods by enabling LLMs to generate initial, globally planned relation paths that represent reasoning chains from a topic entity to potential answer entities. Our method effectively reduces the number of interactions between the LLM and the KG, improving both efficiency and performance in KGQA tasks. Compared to existing methods, SoG significantly enhances the accuracy of reasoning over KGs while minimizing computational costs.
 
 ## Requirements
 To install the required dependencies, run:
