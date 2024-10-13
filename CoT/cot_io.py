@@ -15,9 +15,9 @@ if __name__ == '__main__':
     parser.add_argument("--temperature", type=int,
                         default=0, help="the temperature")
     parser.add_argument("--LLM_type", type=int,
-                        default="gpt-3.5-turbo", help="base LLM model.")
+                        default="gpt-4o-mini", help="base LLM model.")
     parser.add_argument("--opeani_api_keys", type=int,
-                        default="", help="if the LLM_type is gpt-3.5-turbo or gpt-4, you need add your own openai api keys.")
+                        default="", help="Please add your own openai api keys.")
     args = parser.parse_args()
 
 with open("cot_{}.jsonl".format(args.dataset), 'a+', encoding="UTF-8") as out:
