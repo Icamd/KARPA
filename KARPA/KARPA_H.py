@@ -108,7 +108,6 @@ def dijkstra(graph, start, len_pred, relation_mapping):
         else:
             current_average_cost = 0
 
-        # 如果该节点已访问过，则跳过
         if current_node in visited:
             continue
         visited.add(current_node)
