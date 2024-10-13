@@ -25,7 +25,7 @@ To execute the KARPA-H (KARPA with heuristic value-based retrieval method) with 
 cd KARPA
 python KARPA_H.py \
         --dataset webqsp / cwq \ # choose the dataset
-        --opeani_api_keys <your_openai_api_key> \ # add the api key for the LLM
+        --opeani_api_keys <your_api_key> \ # add the api key for the LLM
         --LLM_type gpt-4o-mini \ # the LLM you choose (e.g., gpt-4o, gpt-4o-mini)
         --LLM_URL <optional_LLM_API_URL> \ # add the URL if needed for API key
 ```
@@ -38,7 +38,7 @@ To execute the KARPA-D (KARPA with pathfinding-based retrieval method) with diff
 cd KARPA
 python KARPA_D.py \
         --dataset webqsp / cwq \ # choose the dataset
-        --opeani_api_keys <your_openai_api_key> \ # add the api key for the LLM
+        --opeani_api_keys <your_api_key> \ # add the api key for the LLM
         --LLM_type gpt-4o-mini \ # the LLM you choose (e.g., gpt-4o, gpt-4o-mini)
         --LLM_URL <optional_LLM_API_URL> \ # add the URL if needed for API key
 ```
